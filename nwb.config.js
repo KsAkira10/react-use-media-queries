@@ -4,7 +4,9 @@ module.exports = {
     esModules: true,
     umd: {
       global: 'UseMediaQueries',
-      externals: {}
+      externals: {
+        'react': 'React'
+      }
     }
   }
 }

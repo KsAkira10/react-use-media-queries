@@ -1,5 +1,5 @@
 {
-  "name": "react-use-media-queries",
+  "name": "@ksakira10/use-media-queries",
   "version": "1.0.0",
   "description": "Describe react-use-media-queries here",
   "main": "lib/index.js",
@@ -17,13 +17,18 @@
     "test:coverage": "nwb test --coverage",
     "test:watch": "nwb test --server"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "nwb": "0.23.x"
   },
   "author": "",
   "homepage": "",
   "license": "MIT",
-  "repository": ""
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KsAkira10/react-use-media-queries.git"
+  },
+  "peerDependencies": {
+    "react": "^16.12.0"
+  }
 }

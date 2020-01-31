@@ -13,8 +13,8 @@ const useMediaQueries = (queries, values, defaultValue) => {
   useLayoutEffect(
     () => {
       const handler = () => setValue(getValue);
-      mediaQueryLists.forEach(({ addListener }) => addListener(handler));
-      return () => mediaQueryLists.forEach(({ removeListener }) => removeListener(handler));
+      mediaQueryLists.forEach((mediaQuery) => mediaQuery.addListener(handler));
+      return () => mediaQueryLists.forEach((mediaQuery) => mediaQuery.removeListener(handler));
     },
     [getValue, mediaQueryLists],
   );

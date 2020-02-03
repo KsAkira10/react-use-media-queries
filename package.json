@@ -1,6 +1,6 @@
 {
   "name": "@ksakira10/use-media-queries",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Describe react-use-media-queries here",
   "main": "lib/index.js",
   "module": "es/index.js",
